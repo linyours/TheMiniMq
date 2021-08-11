@@ -8,6 +8,8 @@ TheTheMiniMQ是基于Netty开发的物联网 MQTT 消息服务器。
 
 ![软件架构](https://user-images.githubusercontent.com/71416178/128990088-addd3544-05db-4004-a679-3c04907d892d.png)
 <br />
+<br />
+<br />
 ![软件架构](https://user-images.githubusercontent.com/71416178/128965964-bc822882-4973-4c65-9825-dd25ff36177f.png)
 
 ## 安装教程
