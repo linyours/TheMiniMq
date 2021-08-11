@@ -82,8 +82,10 @@ TheMiniMQ实现了黑名单功能，可以控制客户端的连接，基于MINI 
 
 1. QoS 0(At most once)“至多一次”
    客户端发送消息并不需要服务器的响应，无论是否成功，客户端都无所谓也不关心。
+   
 2. QoS 1(At least once)“至少一次”
    确保消息到达，但消息重复可能会发生。
+   
 3. QoS 2(Exactly once)“只有一次”
    确保消息到达一次。
 
@@ -95,8 +97,11 @@ TheMiniMQ实现了黑名单功能，可以控制客户端的连接，基于MINI 
 
 #### 时序图
 
+![1622510577943](https://user-images.githubusercontent.com/71416178/128996724-6e9c34d3-766e-48b3-8e66-a6fc5d97c795.png)
 
 
 <br />
+![1622512670300](https://user-images.githubusercontent.com/71416178/128996740-aec8800b-a84b-4d19-8a4b-9d7043e26b34.png)
 
 <br />
+![1622512849148](https://user-images.githubusercontent.com/71416178/128996753-85ad4933-c2b9-408b-8583-2ff610ee13dd.png)
