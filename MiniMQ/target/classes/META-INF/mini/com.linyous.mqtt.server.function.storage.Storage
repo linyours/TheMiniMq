@@ -1,0 +1,3 @@
+log=com.linyous.mqtt.server.function.storage.impl.LogStorageImpl
+mysql=com.linyous.mqtt.server.function.storage.impl.MysqlStorageImpl
+elasticsearch=com.linyous.mqtt.server.function.storage.impl.ElasticsearchStorageImpl
