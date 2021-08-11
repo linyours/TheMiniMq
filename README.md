@@ -98,12 +98,8 @@ TheMiniMQ实现了黑名单功能，可以控制客户端的连接，基于MINI 
 3. 即使发布者设置发布消息为QoS2，订阅者也可以通过QoS0或QoS1来订阅该消息（这样就是QoS的降级downgrade）。
 
 #### 时序图
-
-![1622510577943](https://user-images.githubusercontent.com/71416178/128996724-6e9c34d3-766e-48b3-8e66-a6fc5d97c795.png)
-
-
+![QoS=0](https://user-images.githubusercontent.com/71416178/128997421-adfc496f-059a-4bdc-b708-acc1d5c4b18a.png)
 <br />
-![1622512670300](https://user-images.githubusercontent.com/71416178/128996740-aec8800b-a84b-4d19-8a4b-9d7043e26b34.png)
-
+![QoS=1](https://user-images.githubusercontent.com/71416178/128997181-421b759e-99d9-4193-9eca-8f9fec26378a.png)
 <br />
-![1622512849148](https://user-images.githubusercontent.com/71416178/128996753-85ad4933-c2b9-408b-8583-2ff610ee13dd.png)
+![QoS=2](https://user-images.githubusercontent.com/71416178/128997649-65297524-ae11-42ca-a340-a57c45065095.png)
